@@ -14,9 +14,15 @@ const Nav = () => {
     <NavContainer>
       <NavContent>
         <DetailsContainer>
-          <Details>HI 👋🏼</Details>
-          <Details>About</Details>
-          <Details>Projects</Details>
+          <Details>
+            <a href="#hero">HI 👋🏼</a>
+          </Details>
+          <Details>
+            <a href="#about">About</a>
+          </Details>
+          <Details>
+            <a href="#portfolio">Projects</a>
+          </Details>
         </DetailsContainer>
         <BtnContainer>
           <BtnText>Contact</BtnText>

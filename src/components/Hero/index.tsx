@@ -8,9 +8,13 @@ import {
   Img,
 } from "./styles";
 
-const Hero = () => {
+interface HeroProps {
+  id: string;
+}
+
+const Hero: React.FC<HeroProps> = ({ id }) => {
   return (
-    <HeroContainer>
+    <HeroContainer id={id}>
       <HeaderContainer>
         <HeaderText>Hello and welcome to my portfolio!</HeaderText>
       </HeaderContainer>

@@ -1,16 +1,24 @@
 import React from "react";
 // components //
-import { Header, Nav, Hero, Marquee, About, Portfolio, Footer } from "./components"
+import {
+  Header,
+  Nav,
+  Hero,
+  Marquee,
+  About,
+  Portfolio,
+  Footer,
+} from "./components";
 
 function App() {
   return (
     <>
       <Header />
       <Nav />
-      <Hero />
+      <Hero id="hero" />
       <Marquee />
-      <About />
-      <Portfolio />
+      <About id="about" />
+      <Portfolio id="portfolio" />
       <Footer />
     </>
   );

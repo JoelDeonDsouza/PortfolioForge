@@ -8,9 +8,13 @@ import {
   MainText,
 } from "./styles";
 
-const About = () => {
+interface AboutProps {
+  id: string;
+}
+
+const About: React.FC<AboutProps> = ({ id }) => {
   return (
-    <AboutContainer>
+    <AboutContainer id={id}>
       <ImgContainer>
         <Img src={require("../assets/about.png")} />
       </ImgContainer>

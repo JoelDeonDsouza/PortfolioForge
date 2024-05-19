@@ -14,13 +14,17 @@ import {
   DisplayContainer,
   Expo,
   PythonLanguage,
-  Node
+  Node,
 } from "./styles";
 
-const Portfolio = () => {
+interface PortfolioProps {
+  id: string;
+}
+
+const Portfolio: React.FC<PortfolioProps> = ({ id }) => {
   return (
     <>
-      <MarqueeContainer>
+      <MarqueeContainer id={id}>
         <MarqueeContent>
           <MarqueeText>
             I invite you to delve into the projects I've highlighted below. Each
