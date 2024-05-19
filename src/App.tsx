@@ -1,6 +1,6 @@
 import React from "react";
 // components //
-import { Header, Nav, Hero, Marquee } from "./components";
+import { Header, Nav, Hero, Marquee, About, Portfolio, Footer } from "./components"
 
 function App() {
   return (
@@ -9,6 +9,9 @@ function App() {
       <Nav />
       <Hero />
       <Marquee />
+      <About />
+      <Portfolio />
+      <Footer />
     </>
   );
 }

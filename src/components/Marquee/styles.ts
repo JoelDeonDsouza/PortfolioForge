@@ -7,10 +7,6 @@ export const MarqueeContainer = styled.div`
   background-color: #fff;
   color: #000;
   position: relative;
-  border-bottom-width: 2px;
-  border-bottom-style: solid;
-  border-bottom-color: #000;
-  color: #000;
   @media screen and (max-width: 960px) {
     border-width: 2px;
     border-style: solid;
